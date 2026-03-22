@@ -76,55 +76,83 @@ High-value customers contribute a significant portion of total revenue, indicati
 
 ---
 
-## 🗄️ SQL Analysis
+🗄️ SQL Analysis
 
-### Key Queries Performed:
+The following key queries were implemented:
+👉 Refer SQL file:
 
-* Monthly revenue and growth trends
-* Top 10 customers by revenue
-* Customer retention analysis
-* Category-wise revenue ranking
-* Region-wise contribution percentage
+🔍 Analysis Performed:
+Total revenue calculation
+Region-wise sales distribution
+Category-wise performance ranking
+Monthly sales trend and growth analysis
+Top customers by revenue
+Customer retention (repeat buyers)
+Customer lifetime value (CLV)
+Sales by day of week
+📊 Key Insights from SQL
+💰 Revenue Overview
+Total sales reached ~2.26M, indicating strong overall business performance
+🌍 Region Performance
+West region generated the highest revenue
+South region contributed the least
+👉 Indicates regional imbalance and opportunity for expansion
+📦 Category Performance
+Technology category leads in total revenue
+Followed by Furniture and Office Supplies
+👉 High demand for tech-related products
+📈 Monthly Sales Trend
+Sales show consistent fluctuations with peak months
+Growth analysis (using LAG function) highlights periodic increases and declines
+🏆 Top Customers
+A small group of customers contributes significantly to total revenue
+👉 Confirms Pareto principle (80/20 rule)
+🔁 Customer Retention
+Multiple customers have more than one order
+👉 Repeat customers form a stable revenue base
+💎 Customer Lifetime Value (CLV)
+High-value customers show:
+More orders
+Higher total spending
+👉 Important for targeted marketing strategies
+📅 Sales by Day of Week
+Certain days generate higher revenue
+👉 Indicates customer buying patterns and peak days
+📊 Power BI Dashboard
+🔥 KPIs:
+Total Sales: 2.26M
+Average Sales: 230.77K
+Total Orders: 9.8K
+📈 Visualizations:
+Sales by Region
+Sales by Category
+Sales by Segment
+Sales by City (Top cities analysis)
+Geographic distribution (Map visualization)
+🎛️ Features:
+Interactive slicers:
+State
+Ship Mode
+Category
 
-### Example Insights:
+👉 Enables dynamic filtering and analysis
 
-* A small percentage of customers generate a large share of revenue
-* Repeat customers contribute significantly to consistent sales
-* Certain regions outperform others in revenue generation
-* Category ranking highlights top-performing product segments
+🧠 Business Insights
+Top customers contribute a major portion of revenue
+Technology products drive the highest sales
+West region dominates sales performance
+Customer retention plays a key role in revenue stability
+Sales patterns vary across regions and time
+🏁 Conclusion
 
----
+This project demonstrates the ability to:
 
-## 📊 Dashboard (Power BI)
+Work with real-world datasets
+Perform data cleaning and transformation
+Use SQL for business-level analysis
+Build interactive dashboards for decision-making
 
-### Features:
-
-* KPI Cards:
-
-  * Total Sales
-  * Average Sales
-  * Total Orders
-
-* Visualizations:
-
-  * Sales Trend Over Time
-  * Category Performance
-  * Region Performance
-  * Top Customers
-
-* Interactive Filters:
-
-  * Region
-  * Category
-  * Date
-
-👉 Insights:
-
-* Revenue growth is influenced by both order volume and customer value
-* Top customers and categories drive business performance
-* Interactive filtering allows dynamic analysis across dimensions
-
----
+It highlights a complete data analytics workflow from raw data to actionable insights.
 
 ## 🚀 Business Insights
 
